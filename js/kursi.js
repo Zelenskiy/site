@@ -120,6 +120,7 @@ let readAnaliz = ()=>{
             for (r of dat){
                 teachers.add(r[1])
             } 
+            
             sortSet(teachers)            
             let i = 0  
             for (t of teachers){
